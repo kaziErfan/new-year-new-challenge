@@ -1,0 +1,48 @@
+/* global css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page related css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shared common css */
+.btn-primary {}
+
+/* banner section css */
+.banner-section {
+    background-image: url('/images/banner/banner3.png');
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 220px;
+
+}
+
+.banner-content h2 {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    padding-left: 100px;
+    color: #FFF;
+    font-weight: 400;
+}
