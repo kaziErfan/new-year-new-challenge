@@ -67,7 +67,7 @@ body {
 /* About Section Css */
 .about-section {
     display: flex;
-    gap: 6rem;
+    gap: 100px;
 }
 
 .about-content {
@@ -99,6 +99,9 @@ body {
 }
 
 /* Planing Seciton CSS */
+.plan-section{
+    margin-bottom: 135px;
+}
 .plan-title {
     text-align: center;
     font-size: 40px;
@@ -124,4 +127,30 @@ body {
     font-size: 25px;
     font-weight: 500;
     color: #737272;
+}
+
+/* Call Now Section CSS */
+
+.call-now-section{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    padding: 60px ;
+    margin-bottom: 40px;
+    position: relative;
+}
+.call-now-section img{
+    position: relative;
+    bottom: 60px;
+    right: 60px;
+}
+.call-now-title{
+    width: 50%;
+    position: absolute;
+    top: 55px;
+}
+.call-now-title h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
 }
